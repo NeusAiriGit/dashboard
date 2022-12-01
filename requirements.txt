@@ -1,0 +1,13 @@
+dash
+dash_html_components
+dash_core_components
+plotly
+plotly.graph_objects
+plotly.express 
+dash
+dash.dependencies
+jupyter_dash
+numpy
+pandas
+math
+gunicorn
