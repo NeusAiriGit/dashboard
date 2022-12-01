@@ -8,8 +8,6 @@ app = Flask(__name__)
 
 
 
-create_dash_application(app)
-
 if __name__ == '__main__':
     app.run()
     create_dash_application(app)
