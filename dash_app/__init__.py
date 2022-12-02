@@ -44,7 +44,7 @@ Creden = '''Por: José Rodrigo Hernández A01610903'''
 def create_dash_application(flask_app):
     app = dash.Dash(
         server=flask_app,name="Dashboard",
-        url_base_pathname='/'
+        url_base_pathname='/dash/'
     )
     app.layout = html.Div(id = 'parent', children = [
     html.H1(id = 'H1', children = 'Dashboard // Programas internacionales', style = {'textAlign':'center',\
